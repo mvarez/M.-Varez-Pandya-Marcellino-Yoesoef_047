@@ -1,0 +1,18 @@
+using System;
+
+namespace AccessModifierPublic
+{
+    class Name
+    {
+        public string name = "Varez";
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Name myName = new Name();
+            Console.WriteLine(myName.name);
+        }
+    }
+}
